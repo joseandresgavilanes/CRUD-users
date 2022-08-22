@@ -1,0 +1,80 @@
+.card{
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    gap: .5em;
+    width: 300px;
+    border-radius: 4px;
+    padding: 25px 20px 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__userName{
+    display: flex;
+    gap: .4em;
+    align-items: center;
+}
+
+
+
+.line {
+    border: 0.5px solid #E5E5E5;
+    margin: 12px 0;
+}
+
+ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.card li{
+    font-size: 15px;
+    color: rgba(1, 1, 1, 0.604);
+    font-weight: 500;
+
+}
+
+ul span{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(1, 1, 1, 0.634);
+}
+
+.card ul .fa-solid{
+    padding: 0 2px;
+    font-size: 12px;
+    color: rgba(1, 1, 1, 0.254);
+}
+
+
+
+.card__buttons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: .5em;
+}
+
+.card__btn{
+    width: 33px;
+    height: 33px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card__btn:nth-child(1){
+    background-color: #D85D5D;
+    border: none;
+}
+
+.card__btn:nth-child(2) {
+    border: 1px #BDBDBD solid;
+    background: #c2c0c0;
+}
